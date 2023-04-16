@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43b06276-8b40-413e-ade0-0cd9afe187ee" name="Changes" comment="Задание 1. Семинар 2. Actor, ActorBehaviour, Human, Main">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task5/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task5/ActorBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task5/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task5/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task5/MarketBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task5/QueueBehaviour.java" afterDir="false" />
+    <list default="true" id="43b06276-8b40-413e-ade0-0cd9afe187ee" name="Changes" comment="Задание 2. Семинар 2. &#10;1. Интерфейс QueueBehaviour, который описывает логику очереди&#10;2. Интерфейс MarketBehaviour, который описывает логику магазина&#10;3. Класс Market, который реализовывает два вышеуказанных интерфейса и хранит в списке список людей в очереди в различных статусах">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework2/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework2/calculationInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework2/doubleNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task5/MarketBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task5/MarketBehaviour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <recent name="task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.task5.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Homework1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework1.Main" />
       <module name="OOP" />
@@ -73,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task2.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework2.Main" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task2.*" />
+          <option name="PATTERN" value="Homework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.task5.Main" />
         <item itemvalue="Application.task4.Main" />
         <item itemvalue="Application.Homework1.Main" />
         <item itemvalue="Application.task3.Main" />
-        <item itemvalue="Application.task2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -165,13 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681654433721</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Задание 2. Семинар 2. &#10;1. Интерфейс QueueBehaviour, который описывает логику очереди&#10;2. Интерфейс MarketBehaviour, который описывает логику магазина&#10;3. Класс Market, который реализовывает два вышеуказанных интерфейса и хранит в списке список людей в очереди в различных статусах">
+      <created>1681660072248</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681660072248</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Домашняя работа 1" />
     <MESSAGE value="Задание 1. Семинар 2. Actor, ActorBehaviour, Human, Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 1. Семинар 2. Actor, ActorBehaviour, Human, Main" />
+    <MESSAGE value="Задание 2. Семинар 2. &#10;1. Интерфейс QueueBehaviour, который описывает логику очереди&#10;2. Интерфейс MarketBehaviour, который описывает логику магазина&#10;3. Класс Market, который реализовывает два вышеуказанных интерфейса и хранит в списке список людей в очереди в различных статусах" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 2. Семинар 2. &#10;1. Интерфейс QueueBehaviour, который описывает логику очереди&#10;2. Интерфейс MarketBehaviour, который описывает логику магазина&#10;3. Класс Market, который реализовывает два вышеуказанных интерфейса и хранит в списке список людей в очереди в различных статусах" />
   </component>
 </project>
