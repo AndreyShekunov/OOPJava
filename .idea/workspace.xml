@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43b06276-8b40-413e-ade0-0cd9afe187ee" name="Changes" comment="Задание 2. Семинар 2. &#10;1. Интерфейс QueueBehaviour, который описывает логику очереди&#10;2. Интерфейс MarketBehaviour, который описывает логику магазина&#10;3. Класс Market, который реализовывает два вышеуказанных интерфейса и хранит в списке список людей в очереди в различных статусах">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework2/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework2/calculationInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework2/doubleNumber.java" afterDir="false" />
+    <list default="true" id="43b06276-8b40-413e-ade0-0cd9afe187ee" name="Changes" comment="Домашняя работа 2. Калькулятор.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/task6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task6/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task6/StudentsGroupIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task5/MarketBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task5/MarketBehaviour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <recent name="task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.task6.Main">
     <configuration name="Homework1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework1.Main" />
       <module name="OOP" />
@@ -77,19 +75,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Homework2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="task3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.Main" />
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="task6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task6.Main" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.task6.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.task5.Main" />
         <item itemvalue="Application.task4.Main" />
         <item itemvalue="Application.Homework1.Main" />
-        <item itemvalue="Application.task3.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681660072248</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Домашняя работа 2. Калькулятор.">
+      <created>1681668798934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681668798934</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +183,7 @@
     <MESSAGE value="Домашняя работа 1" />
     <MESSAGE value="Задание 1. Семинар 2. Actor, ActorBehaviour, Human, Main" />
     <MESSAGE value="Задание 2. Семинар 2. &#10;1. Интерфейс QueueBehaviour, который описывает логику очереди&#10;2. Интерфейс MarketBehaviour, который описывает логику магазина&#10;3. Класс Market, который реализовывает два вышеуказанных интерфейса и хранит в списке список людей в очереди в различных статусах" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 2. Семинар 2. &#10;1. Интерфейс QueueBehaviour, который описывает логику очереди&#10;2. Интерфейс MarketBehaviour, который описывает логику магазина&#10;3. Класс Market, который реализовывает два вышеуказанных интерфейса и хранит в списке список людей в очереди в различных статусах" />
+    <MESSAGE value="Домашняя работа 2. Калькулятор." />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашняя работа 2. Калькулятор." />
   </component>
 </project>
