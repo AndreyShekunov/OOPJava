@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43b06276-8b40-413e-ade0-0cd9afe187ee" name="Changes" comment="Задача 1. Семинар 3. - Создать класс Студент; Создать класс УчебнаяГруппа; Создать класс УчебнаяГруппаИтератор, заставив его реализовать интерфейс Iterator; Реализовать его контракты (включая удаление)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task7/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task7/StudentsCamparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task7/StudentsGroupIterator.java" afterDir="false" />
+    <list default="true" id="43b06276-8b40-413e-ade0-0cd9afe187ee" name="Changes" comment="Задача 2. Семинар 3. - Создать класс СтудентКомпаратор реализующий интерфейс Comparator; Реализовать контракт compare () со сравнением по какому-либо параметру (пример: сочетание Средний бал+Фамилия)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework3/StudentGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework3/StudentsCamparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework3/StudentsGroupIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework3/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework3/TeacherComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework3/TeacherGroupIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework3/TeachingStaff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2O0T7TpR5rNf8tUmqD9O1ONAYJ7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,19 +58,26 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Homework3" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Homework3" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Homework3" />
       <recent name="task7" />
       <recent name="task5" />
       <recent name="task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.task7.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework2.Main" />
+  <component name="RunManager" selected="Application.Homework3.Main">
+    <configuration name="Homework3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework3.Main" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework2.*" />
+          <option name="PATTERN" value="Homework3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task4.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework2.Main" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task4.*" />
+          <option name="PATTERN" value="Homework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework3.Main" />
         <item itemvalue="Application.task7.Main" />
         <item itemvalue="Application.task6.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.task5.Main" />
-        <item itemvalue="Application.task4.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681806444887</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Задача 2. Семинар 3. - Создать класс СтудентКомпаратор реализующий интерфейс Comparator; Реализовать контракт compare () со сравнением по какому-либо параметру (пример: сочетание Средний бал+Фамилия)">
+      <created>1681809402519</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681809402519</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -194,6 +215,7 @@
     <MESSAGE value="Задание 2. Семинар 2. &#10;1. Интерфейс QueueBehaviour, который описывает логику очереди&#10;2. Интерфейс MarketBehaviour, который описывает логику магазина&#10;3. Класс Market, который реализовывает два вышеуказанных интерфейса и хранит в списке список людей в очереди в различных статусах" />
     <MESSAGE value="Домашняя работа 2. Калькулятор." />
     <MESSAGE value="Задача 1. Семинар 3. - Создать класс Студент; Создать класс УчебнаяГруппа; Создать класс УчебнаяГруппаИтератор, заставив его реализовать интерфейс Iterator; Реализовать его контракты (включая удаление)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задача 1. Семинар 3. - Создать класс Студент; Создать класс УчебнаяГруппа; Создать класс УчебнаяГруппаИтератор, заставив его реализовать интерфейс Iterator; Реализовать его контракты (включая удаление)" />
+    <MESSAGE value="Задача 2. Семинар 3. - Создать класс СтудентКомпаратор реализующий интерфейс Comparator; Реализовать контракт compare () со сравнением по какому-либо параметру (пример: сочетание Средний бал+Фамилия)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задача 2. Семинар 3. - Создать класс СтудентКомпаратор реализующий интерфейс Comparator; Реализовать контракт compare () со сравнением по какому-либо параметру (пример: сочетание Средний бал+Фамилия)" />
   </component>
 </project>
