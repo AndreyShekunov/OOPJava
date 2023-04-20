@@ -24,5 +24,4 @@ public class StudentsGroupIterator implements Iterator<Student> {
         }
         return students.get(counter++);
     }
-
 }
